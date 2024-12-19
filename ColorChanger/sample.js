@@ -1,7 +1,9 @@
+let ColorInput= document.getElementById("colorInput")
+let btn=document.getElementById("btn")
+
 function changeColor(){
-    const colors=["green","blue","yellow","red","crimson","cyan"]
-    const randomColor=Math.floor(Math.random()*colors.length)
-    document.body.style.backgroundColor=colors[randomColor]
+    document.body.style.backgroundColor=ColorInput.value
 
 }
+btn.addEventListener("click",changeColor)
 
