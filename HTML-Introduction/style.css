@@ -1,0 +1,29 @@
+
+div {
+    background-color: rgb(100, 185, 104); 
+    height: 200px; 
+    width: 500px;
+}
+h1 {
+    background-color: blueviolet; 
+    color: white;
+}
+.btn{
+    padding: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 5%;
+    font-size: 20px;
+    width: 150px;
+    color: white;
+    cursor:pointer;
+    
+}
+button:hover{
+    background-color: aqua;
+}
+#btn1{
+    background-color: crimson;
+    padding: 15px;
+    border:none;
+}
